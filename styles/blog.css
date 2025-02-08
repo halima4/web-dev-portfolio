@@ -5,7 +5,7 @@
     font-optical-sizing: auto;
     font-style: normal;
     font-variation-settings:
-      "wdth" 100;
+      "width" 100;
   }
   
 nav{
@@ -78,6 +78,39 @@ color: #181818;
     background-image: url('../images/developer.png'),url('../images/header_bg.png');
     background-repeat: no-repeat;
     background-position: top left,bottom right;
+}
+.section-title{
+    font-size: 35px;
+    font-weight: bold;
+    color:#181818;
+}
+.section-description{
+    font-size: 15px;
+    color: #757575;
+}
+.secondary-bg{
+   background-color: #FFF8F3; 
+}
+.about{
+    border-radius: 10px;
+    padding: 130px,150px;
+    text-align: center;
+    margin:130px ;
+}
+.main{
+    max-width: 1140px;
+    margin: 0 auto ;
+}
+.about-items{
+    display: flex;
+    justify-content: space-around;
+}
+.item-title{
+    font-weight: 600px;
+    font-size: 20;
+}
+.item-description{
+    font-weight: bold;
 }
  
 
