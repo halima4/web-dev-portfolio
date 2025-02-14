@@ -26,7 +26,9 @@ font-size: 45px;
 }
 nav ul{
     display: flex;
-    align-self: center; 
+    align-items: center;
+    
+     
 
 
 }
@@ -83,10 +85,12 @@ color: #181818;
     font-size: 35px;
     font-weight: bold;
     color:#181818;
+    text-align: center;
 }
 .section-description{
     font-size: 15px;
     color: #757575;
+    text-align: center;
 }
 .secondary-bg{
    background-color: #FFF8F3; 
@@ -100,6 +104,8 @@ color: #181818;
 .main{
     max-width: 1140px;
     margin: 0 auto ;
+    margin-top: 130px;
+    margin-bottom: 130px;
 }
 .about-items{
     display: flex;
@@ -112,5 +118,43 @@ color: #181818;
 .item-description{
     font-weight: bold;
 }
+.text-center{
+
+}
+.skill-container{
+display: flex;
+gap: 24px;
+}
+.skill{
+    padding:30px ;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+}
+
+.resume-container{
+    display: flex;
+}
+footer{
+    padding: 130px 230px;
+    display: flex;
+    gap: 100px;
+}
+.footer-column{
+    width:50% ;
+}
+footer input[type="text"],footer textarea{
+    height: 64px;
+    border-radius: 5px;
+    background-color:white ;
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    border:none ;
+
+
+
+}
+
  
 
